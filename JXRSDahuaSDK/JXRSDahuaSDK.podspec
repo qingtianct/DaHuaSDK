@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "tao cheng" => "" }
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "http://EXAMPLE/JXRSDahuaSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/qingtianct/DaHuaSDK.git", :tag => "#{s.version}" }
 #s.source_files  = "ios_ibp_sdk/include", "ios_ibp_sdk/include/**/*.{h}"
 
   s.exclude_files = "Classes/Exclude"
