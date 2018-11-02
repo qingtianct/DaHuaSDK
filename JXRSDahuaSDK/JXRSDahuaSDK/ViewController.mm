@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#include <dmu_sdk.h>
+#include <ibp_error_enum.h>
+#include <cmu_sdk.h>
 
 @interface ViewController ()
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CMU_SC_Init();
 }
 
 
