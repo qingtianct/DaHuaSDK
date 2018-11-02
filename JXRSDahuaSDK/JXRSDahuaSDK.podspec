@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "ios_ibp_sdk/**/*.h"
+  s.public_header_files = "ios_ibp_sdk/include/*.h"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = "AudioToolbox", "AVFoundation"
   s.library = "stdc++"
-  s.vendored_libraries = "ios_ibp_sdk/**/*.{a}"
+  s.vendored_libraries = "ios_ibp_sdk/**/**/*.{a}"
 
   s.requires_arc = true
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
