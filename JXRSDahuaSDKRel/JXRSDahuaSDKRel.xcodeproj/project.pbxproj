@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21FE8175218BFF42001B92E7 /* JXRSDahuaSDKRel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FE8174218BFF42001B92E7 /* JXRSDahuaSDKRel.m */; };
+		21FE8176218BFF42001B92E7 /* JXRSDahuaSDKRel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21FE8173218BFF42001B92E7 /* JXRSDahuaSDKRel.h */; };
+		21FE81F1218BFF7E001B92E7 /* libibp_utils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81CF218BFF7E001B92E7 /* libibp_utils.a */; };
+		21FE81F2218BFF7E001B92E7 /* libnew_opt_xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D0218BFF7E001B92E7 /* libnew_opt_xml.a */; };
+		21FE81F3218BFF7E001B92E7 /* libframework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D1218BFF7E001B92E7 /* libframework.a */; };
+		21FE81F4218BFF7E001B92E7 /* libprtlWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D2218BFF7E001B92E7 /* libprtlWrapper.a */; };
+		21FE81F5218BFF7E001B92E7 /* librtsp_rtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D3218BFF7E001B92E7 /* librtsp_rtp.a */; };
+		21FE81F6218BFF7E001B92E7 /* libnew_dhtp_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D4218BFF7E001B92E7 /* libnew_dhtp_protocol.a */; };
+		21FE81F7218BFF7E001B92E7 /* libevent_extra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D5218BFF7E001B92E7 /* libevent_extra.a */; };
+		21FE81F8218BFF7E001B92E7 /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D6218BFF7E001B92E7 /* libevent.a */; };
+		21FE81F9218BFF7E001B92E7 /* librtpProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D7218BFF7E001B92E7 /* librtpProtocol.a */; };
+		21FE81FA218BFF7E001B92E7 /* libevent_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D8218BFF7E001B92E7 /* libevent_core.a */; };
+		21FE81FB218BFF7E001B92E7 /* libibp_stream_parser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81D9218BFF7E001B92E7 /* libibp_stream_parser.a */; };
+		21FE81FC218BFF7E001B92E7 /* librtsp_kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81DA218BFF7E001B92E7 /* librtsp_kit.a */; };
+		21FE81FD218BFF7E001B92E7 /* libstreamTrans1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81DB218BFF7E001B92E7 /* libstreamTrans1.1.a */; };
+		21FE81FE218BFF7E001B92E7 /* libibp_compat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81DC218BFF7E001B92E7 /* libibp_compat.a */; };
+		21FE81FF218BFF7E001B92E7 /* libnew_ibp_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81DD218BFF7E001B92E7 /* libnew_ibp_protocol.a */; };
+		21FE8200218BFF7E001B92E7 /* libibp_xml_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81DE218BFF7E001B92E7 /* libibp_xml_protocol.a */; };
+		21FE8201218BFF7E001B92E7 /* libimds_protocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81DF218BFF7E001B92E7 /* libimds_protocol.a */; };
+		21FE8202218BFF7E001B92E7 /* libsqlite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E0218BFF7E001B92E7 /* libsqlite3.a */; };
+		21FE8203218BFF7E001B92E7 /* libevent_pthreads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E1218BFF7E001B92E7 /* libevent_pthreads.a */; };
+		21FE8204218BFF7E001B92E7 /* libjson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E2218BFF7E001B92E7 /* libjson.a */; };
+		21FE8205218BFF7E001B92E7 /* libvru_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E4218BFF7E001B92E7 /* libvru_sdk.a */; };
+		21FE8206218BFF7E001B92E7 /* liblku_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E5218BFF7E001B92E7 /* liblku_sdk.a */; };
+		21FE8207218BFF7E001B92E7 /* libdmu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E6218BFF7E001B92E7 /* libdmu_sdk.a */; };
+		21FE8208218BFF7E001B92E7 /* libimds_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E7218BFF7E001B92E7 /* libimds_sdk.a */; };
+		21FE8209218BFF7E001B92E7 /* liblcu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E8218BFF7E001B92E7 /* liblcu_sdk.a */; };
+		21FE820A218BFF7E001B92E7 /* libmcu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81E9218BFF7E001B92E7 /* libmcu_sdk.a */; };
+		21FE820B218BFF7E001B92E7 /* liblmu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81EA218BFF7E001B92E7 /* liblmu_sdk.a */; };
+		21FE820C218BFF7E001B92E7 /* libfs_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81EB218BFF7E001B92E7 /* libfs_sdk.a */; };
+		21FE820D218BFF7E001B92E7 /* libsdk_framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81EC218BFF7E001B92E7 /* libsdk_framework.a */; };
+		21FE820E218BFF7E001B92E7 /* libvtdu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81ED218BFF7E001B92E7 /* libvtdu_sdk.a */; };
+		21FE820F218BFF7E001B92E7 /* libvmu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81EE218BFF7E001B92E7 /* libvmu_sdk.a */; };
+		21FE8210218BFF7E001B92E7 /* libcmu_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81EF218BFF7E001B92E7 /* libcmu_sdk.a */; };
+		21FE8211218BFF7E001B92E7 /* libpcc_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE81F0218BFF7E001B92E7 /* libpcc_sdk.a */; };
+		21FE8214218BFFB1001B92E7 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE8213218BFFB1001B92E7 /* libstdc++.6.0.9.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21FE816E218BFF42001B92E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				21FE8176218BFF42001B92E7 /* JXRSDahuaSDKRel.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21FE8170218BFF42001B92E7 /* libJXRSDahuaSDKRel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJXRSDahuaSDKRel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FE8173218BFF42001B92E7 /* JXRSDahuaSDKRel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXRSDahuaSDKRel.h; sourceTree = "<group>"; };
+		21FE8174218BFF42001B92E7 /* JXRSDahuaSDKRel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXRSDahuaSDKRel.m; sourceTree = "<group>"; };
+		21FE81C9218BFF7E001B92E7 /* dmu_sdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dmu_sdk.h; sourceTree = "<group>"; };
+		21FE81CA218BFF7E001B92E7 /* ibp_error_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibp_error_enum.h; sourceTree = "<group>"; };
+		21FE81CB218BFF7E001B92E7 /* cmu_sdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmu_sdk.h; sourceTree = "<group>"; };
+		21FE81CF218BFF7E001B92E7 /* libibp_utils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libibp_utils.a; sourceTree = "<group>"; };
+		21FE81D0218BFF7E001B92E7 /* libnew_opt_xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnew_opt_xml.a; sourceTree = "<group>"; };
+		21FE81D1218BFF7E001B92E7 /* libframework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libframework.a; sourceTree = "<group>"; };
+		21FE81D2218BFF7E001B92E7 /* libprtlWrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libprtlWrapper.a; sourceTree = "<group>"; };
+		21FE81D3218BFF7E001B92E7 /* librtsp_rtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtsp_rtp.a; sourceTree = "<group>"; };
+		21FE81D4218BFF7E001B92E7 /* libnew_dhtp_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnew_dhtp_protocol.a; sourceTree = "<group>"; };
+		21FE81D5218BFF7E001B92E7 /* libevent_extra.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent_extra.a; sourceTree = "<group>"; };
+		21FE81D6218BFF7E001B92E7 /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent.a; sourceTree = "<group>"; };
+		21FE81D7218BFF7E001B92E7 /* librtpProtocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtpProtocol.a; sourceTree = "<group>"; };
+		21FE81D8218BFF7E001B92E7 /* libevent_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent_core.a; sourceTree = "<group>"; };
+		21FE81D9218BFF7E001B92E7 /* libibp_stream_parser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libibp_stream_parser.a; sourceTree = "<group>"; };
+		21FE81DA218BFF7E001B92E7 /* librtsp_kit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtsp_kit.a; sourceTree = "<group>"; };
+		21FE81DB218BFF7E001B92E7 /* libstreamTrans1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libstreamTrans1.1.a; sourceTree = "<group>"; };
+		21FE81DC218BFF7E001B92E7 /* libibp_compat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libibp_compat.a; sourceTree = "<group>"; };
+		21FE81DD218BFF7E001B92E7 /* libnew_ibp_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libnew_ibp_protocol.a; sourceTree = "<group>"; };
+		21FE81DE218BFF7E001B92E7 /* libibp_xml_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libibp_xml_protocol.a; sourceTree = "<group>"; };
+		21FE81DF218BFF7E001B92E7 /* libimds_protocol.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libimds_protocol.a; sourceTree = "<group>"; };
+		21FE81E0218BFF7E001B92E7 /* libsqlite3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsqlite3.a; sourceTree = "<group>"; };
+		21FE81E1218BFF7E001B92E7 /* libevent_pthreads.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libevent_pthreads.a; sourceTree = "<group>"; };
+		21FE81E2218BFF7E001B92E7 /* libjson.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjson.a; sourceTree = "<group>"; };
+		21FE81E4218BFF7E001B92E7 /* libvru_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvru_sdk.a; sourceTree = "<group>"; };
+		21FE81E5218BFF7E001B92E7 /* liblku_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblku_sdk.a; sourceTree = "<group>"; };
+		21FE81E6218BFF7E001B92E7 /* libdmu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdmu_sdk.a; sourceTree = "<group>"; };
+		21FE81E7218BFF7E001B92E7 /* libimds_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libimds_sdk.a; sourceTree = "<group>"; };
+		21FE81E8218BFF7E001B92E7 /* liblcu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblcu_sdk.a; sourceTree = "<group>"; };
+		21FE81E9218BFF7E001B92E7 /* libmcu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmcu_sdk.a; sourceTree = "<group>"; };
+		21FE81EA218BFF7E001B92E7 /* liblmu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblmu_sdk.a; sourceTree = "<group>"; };
+		21FE81EB218BFF7E001B92E7 /* libfs_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfs_sdk.a; sourceTree = "<group>"; };
+		21FE81EC218BFF7E001B92E7 /* libsdk_framework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsdk_framework.a; sourceTree = "<group>"; };
+		21FE81ED218BFF7E001B92E7 /* libvtdu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvtdu_sdk.a; sourceTree = "<group>"; };
+		21FE81EE218BFF7E001B92E7 /* libvmu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvmu_sdk.a; sourceTree = "<group>"; };
+		21FE81EF218BFF7E001B92E7 /* libcmu_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcmu_sdk.a; sourceTree = "<group>"; };
+		21FE81F0218BFF7E001B92E7 /* libpcc_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcc_sdk.a; sourceTree = "<group>"; };
+		21FE8213218BFFB1001B92E7 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FE816D218BFF42001B92E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FE8214218BFFB1001B92E7 /* libstdc++.6.0.9.tbd in Frameworks */,
+				21FE81F7218BFF7E001B92E7 /* libevent_extra.a in Frameworks */,
+				21FE8206218BFF7E001B92E7 /* liblku_sdk.a in Frameworks */,
+				21FE8204218BFF7E001B92E7 /* libjson.a in Frameworks */,
+				21FE820C218BFF7E001B92E7 /* libfs_sdk.a in Frameworks */,
+				21FE81FB218BFF7E001B92E7 /* libibp_stream_parser.a in Frameworks */,
+				21FE820E218BFF7E001B92E7 /* libvtdu_sdk.a in Frameworks */,
+				21FE81F2218BFF7E001B92E7 /* libnew_opt_xml.a in Frameworks */,
+				21FE8203218BFF7E001B92E7 /* libevent_pthreads.a in Frameworks */,
+				21FE81F8218BFF7E001B92E7 /* libevent.a in Frameworks */,
+				21FE81FA218BFF7E001B92E7 /* libevent_core.a in Frameworks */,
+				21FE81FF218BFF7E001B92E7 /* libnew_ibp_protocol.a in Frameworks */,
+				21FE81F4218BFF7E001B92E7 /* libprtlWrapper.a in Frameworks */,
+				21FE8200218BFF7E001B92E7 /* libibp_xml_protocol.a in Frameworks */,
+				21FE81F9218BFF7E001B92E7 /* librtpProtocol.a in Frameworks */,
+				21FE8202218BFF7E001B92E7 /* libsqlite3.a in Frameworks */,
+				21FE8209218BFF7E001B92E7 /* liblcu_sdk.a in Frameworks */,
+				21FE81FE218BFF7E001B92E7 /* libibp_compat.a in Frameworks */,
+				21FE8207218BFF7E001B92E7 /* libdmu_sdk.a in Frameworks */,
+				21FE8211218BFF7E001B92E7 /* libpcc_sdk.a in Frameworks */,
+				21FE81F6218BFF7E001B92E7 /* libnew_dhtp_protocol.a in Frameworks */,
+				21FE81F3218BFF7E001B92E7 /* libframework.a in Frameworks */,
+				21FE8208218BFF7E001B92E7 /* libimds_sdk.a in Frameworks */,
+				21FE820D218BFF7E001B92E7 /* libsdk_framework.a in Frameworks */,
+				21FE820F218BFF7E001B92E7 /* libvmu_sdk.a in Frameworks */,
+				21FE8205218BFF7E001B92E7 /* libvru_sdk.a in Frameworks */,
+				21FE8210218BFF7E001B92E7 /* libcmu_sdk.a in Frameworks */,
+				21FE81F1218BFF7E001B92E7 /* libibp_utils.a in Frameworks */,
+				21FE81FD218BFF7E001B92E7 /* libstreamTrans1.1.a in Frameworks */,
+				21FE81F5218BFF7E001B92E7 /* librtsp_rtp.a in Frameworks */,
+				21FE820B218BFF7E001B92E7 /* liblmu_sdk.a in Frameworks */,
+				21FE8201218BFF7E001B92E7 /* libimds_protocol.a in Frameworks */,
+				21FE820A218BFF7E001B92E7 /* libmcu_sdk.a in Frameworks */,
+				21FE81FC218BFF7E001B92E7 /* librtsp_kit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FE8167218BFF42001B92E7 = {
+			isa = PBXGroup;
+			children = (
+				21FE8172218BFF42001B92E7 /* JXRSDahuaSDKRel */,
+				21FE8171218BFF42001B92E7 /* Products */,
+				21FE8212218BFFB1001B92E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21FE8171218BFF42001B92E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21FE8170218BFF42001B92E7 /* libJXRSDahuaSDKRel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21FE8172218BFF42001B92E7 /* JXRSDahuaSDKRel */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81C7218BFF7E001B92E7 /* ios_ibp_sdk */,
+				21FE8173218BFF42001B92E7 /* JXRSDahuaSDKRel.h */,
+				21FE8174218BFF42001B92E7 /* JXRSDahuaSDKRel.m */,
+			);
+			path = JXRSDahuaSDKRel;
+			sourceTree = "<group>";
+		};
+		21FE81C7218BFF7E001B92E7 /* ios_ibp_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81C8218BFF7E001B92E7 /* include */,
+				21FE81CC218BFF7E001B92E7 /* lib_ios */,
+			);
+			name = ios_ibp_sdk;
+			path = ../../JXRSDahuaSDK/ios_ibp_sdk;
+			sourceTree = "<group>";
+		};
+		21FE81C8218BFF7E001B92E7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81C9218BFF7E001B92E7 /* dmu_sdk.h */,
+				21FE81CA218BFF7E001B92E7 /* ibp_error_enum.h */,
+				21FE81CB218BFF7E001B92E7 /* cmu_sdk.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		21FE81CC218BFF7E001B92E7 /* lib_ios */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81CD218BFF7E001B92E7 /* arm64 */,
+			);
+			path = lib_ios;
+			sourceTree = "<group>";
+		};
+		21FE81CD218BFF7E001B92E7 /* arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81CE218BFF7E001B92E7 /* common */,
+				21FE81E3218BFF7E001B92E7 /* ibp_sdk */,
+			);
+			path = arm64;
+			sourceTree = "<group>";
+		};
+		21FE81CE218BFF7E001B92E7 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81CF218BFF7E001B92E7 /* libibp_utils.a */,
+				21FE81D0218BFF7E001B92E7 /* libnew_opt_xml.a */,
+				21FE81D1218BFF7E001B92E7 /* libframework.a */,
+				21FE81D2218BFF7E001B92E7 /* libprtlWrapper.a */,
+				21FE81D3218BFF7E001B92E7 /* librtsp_rtp.a */,
+				21FE81D4218BFF7E001B92E7 /* libnew_dhtp_protocol.a */,
+				21FE81D5218BFF7E001B92E7 /* libevent_extra.a */,
+				21FE81D6218BFF7E001B92E7 /* libevent.a */,
+				21FE81D7218BFF7E001B92E7 /* librtpProtocol.a */,
+				21FE81D8218BFF7E001B92E7 /* libevent_core.a */,
+				21FE81D9218BFF7E001B92E7 /* libibp_stream_parser.a */,
+				21FE81DA218BFF7E001B92E7 /* librtsp_kit.a */,
+				21FE81DB218BFF7E001B92E7 /* libstreamTrans1.1.a */,
+				21FE81DC218BFF7E001B92E7 /* libibp_compat.a */,
+				21FE81DD218BFF7E001B92E7 /* libnew_ibp_protocol.a */,
+				21FE81DE218BFF7E001B92E7 /* libibp_xml_protocol.a */,
+				21FE81DF218BFF7E001B92E7 /* libimds_protocol.a */,
+				21FE81E0218BFF7E001B92E7 /* libsqlite3.a */,
+				21FE81E1218BFF7E001B92E7 /* libevent_pthreads.a */,
+				21FE81E2218BFF7E001B92E7 /* libjson.a */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		21FE81E3218BFF7E001B92E7 /* ibp_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				21FE81E4218BFF7E001B92E7 /* libvru_sdk.a */,
+				21FE81E5218BFF7E001B92E7 /* liblku_sdk.a */,
+				21FE81E6218BFF7E001B92E7 /* libdmu_sdk.a */,
+				21FE81E7218BFF7E001B92E7 /* libimds_sdk.a */,
+				21FE81E8218BFF7E001B92E7 /* liblcu_sdk.a */,
+				21FE81E9218BFF7E001B92E7 /* libmcu_sdk.a */,
+				21FE81EA218BFF7E001B92E7 /* liblmu_sdk.a */,
+				21FE81EB218BFF7E001B92E7 /* libfs_sdk.a */,
+				21FE81EC218BFF7E001B92E7 /* libsdk_framework.a */,
+				21FE81ED218BFF7E001B92E7 /* libvtdu_sdk.a */,
+				21FE81EE218BFF7E001B92E7 /* libvmu_sdk.a */,
+				21FE81EF218BFF7E001B92E7 /* libcmu_sdk.a */,
+				21FE81F0218BFF7E001B92E7 /* libpcc_sdk.a */,
+			);
+			path = ibp_sdk;
+			sourceTree = "<group>";
+		};
+		21FE8212218BFFB1001B92E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FE8213218BFFB1001B92E7 /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21FE816F218BFF42001B92E7 /* JXRSDahuaSDKRel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FE8179218BFF42001B92E7 /* Build configuration list for PBXNativeTarget "JXRSDahuaSDKRel" */;
+			buildPhases = (
+				21FE816C218BFF42001B92E7 /* Sources */,
+				21FE816D218BFF42001B92E7 /* Frameworks */,
+				21FE816E218BFF42001B92E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXRSDahuaSDKRel;
+			productName = JXRSDahuaSDKRel;
+			productReference = 21FE8170218BFF42001B92E7 /* libJXRSDahuaSDKRel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21FE8168218BFF42001B92E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "tao cheng";
+				TargetAttributes = {
+					21FE816F218BFF42001B92E7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 21FE816B218BFF42001B92E7 /* Build configuration list for PBXProject "JXRSDahuaSDKRel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21FE8167218BFF42001B92E7;
+			productRefGroup = 21FE8171218BFF42001B92E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21FE816F218BFF42001B92E7 /* JXRSDahuaSDKRel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FE816C218BFF42001B92E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FE8175218BFF42001B92E7 /* JXRSDahuaSDKRel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21FE8177218BFF42001B92E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21FE8178218BFF42001B92E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21FE817A218BFF42001B92E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21FE817B218BFF42001B92E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FE816B218BFF42001B92E7 /* Build configuration list for PBXProject "JXRSDahuaSDKRel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FE8177218BFF42001B92E7 /* Debug */,
+				21FE8178218BFF42001B92E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FE8179218BFF42001B92E7 /* Build configuration list for PBXNativeTarget "JXRSDahuaSDKRel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FE817A218BFF42001B92E7 /* Debug */,
+				21FE817B218BFF42001B92E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21FE8168218BFF42001B92E7 /* Project object */;
+}
